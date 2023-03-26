@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+
+nav{
+    display: block;
+    background: #16151F;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a{
+    color: white;
+    font-size: 20px;
+}
+
+button{
+    height: 100px;
+    width: 250px;
+    background-color: #16151F;
+    border: #16151F;
+}
+
+img{
+    height: 150px;
+    width: 270px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+

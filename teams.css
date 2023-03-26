@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+}
+
+div{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+body{
+    margin-bottom: 1rem;
+}
+
+div>img{
+    height: 110px;
+    width: 370px;
+}
+
+table{
+    height: 110px;
+    width: 370px;
+}

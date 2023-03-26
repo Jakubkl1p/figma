@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    margin-left: 0;
+}
+
+article , div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+body{
+    margin-bottom: 1rem;
+}
+
+.track{
+    height: 490px;
+    width: 650px;
+    margin-top: 10px;
+}
+
+.flag{
+    border: 1px solid #000;
+    height: 50px;
+    width: 80px;
+    margin-top: 1rem;
+    margin-right: 0;    
+}
+
+p{
+    font-size: 1.75rem;
+}
