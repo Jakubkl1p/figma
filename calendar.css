@@ -1,0 +1,59 @@
+h1{
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 1.8rem;
+}
+
+article , div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article{
+    justify-content: space-evenly;
+}
+
+div{
+    justify-content: space-evenly;
+}
+
+body{
+    margin-bottom: 1rem;
+}
+
+.track{
+    height: 500px;
+    width: 700px;
+    margin-top: 1.25rem;
+}
+
+.flag{
+    border: 1px solid #000;
+    height: 50px;
+    width: 80px;
+    margin-top: 1rem;
+    border-radius: 1rem;  
+}
+
+p{
+    font-size: 1.75rem;
+}
+
+#ntx{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height:2rem;
+    width: 10rem;
+    border-radius: 1rem;
+    margin-top: 28px;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-right: 11.5rem;
+    margin-bottom: 1rem;
+}

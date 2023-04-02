@@ -1,0 +1,117 @@
+body{
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+div{
+    margin: 1rem 2.5rem;
+}
+
+h1{
+    font-size: 40px;
+}
+
+label , input{
+    font-style:oblique;
+    font-weight: bold;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+input{
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 4;
+    grid-template-rows: 4;
+    align-items: center;
+}
+
+#name1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+}
+
+#name{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+}
+
+#lname1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    margin-left: 5rem;
+}
+
+#lname{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    margin-right: 13rem;
+    padding-bottom: 1rem;
+}
+
+#email1{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+}
+
+#email{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    padding-bottom: 1rem;
+}
+
+#opinion1{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+}
+
+#opinion{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    padding-bottom: 12rem;
+    margin-right: 11rem;
+}
+
+#submit{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    height: 30px;
+    width: 120px;
+    background-color: black;
+    color: white;
+    margin-left: 13rem;
+}
+
