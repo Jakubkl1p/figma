@@ -27,7 +27,7 @@ button{
     border: #15151e;
 }
 
-img{
+nav>img{
     height: 150px;
     width: 270px;
     display: flex;

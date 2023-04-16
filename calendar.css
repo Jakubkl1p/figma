@@ -39,7 +39,7 @@ p{
     font-size: 1.75rem;
 }
 
-#ntx{
+#ntx,#ntx1{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -50,10 +50,14 @@ p{
     align-items: center;
 }
 
+#ntx1{
+    margin-left: 7.5rem;
+}
+
 footer{
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
-    margin-right: 11.5rem;
+    justify-content: space-between;
+    margin-right: 7.5rem;
     margin-bottom: 1rem;
 }
