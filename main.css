@@ -1,72 +1,71 @@
-body{
-background: #FFFFFF;
+body {
+  background: #ffffff;
 }
 
-#img{
-background: url(car.webp);
-height: 65vh;
-background-repeat: no-repeat;
+#img {
+  background: url(car.webp);
+  height: 65vh;
+  background-repeat: no-repeat;
 }
 
-#img{
+#img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center; 
-  color:rgba(255, 255, 255,0.9);
-  font-family:'Times New Roman', Times, serif;
-  padding: 15px; 
+  align-items: center;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: "Times New Roman", Times, serif;
+  padding: 15px;
 }
 
-h1{
-    font-size: 50px;
+h1 {
+  font-size: 50px;
 }
 
-#tept{
-    margin-bottom: 3.5rem;
-    letter-spacing: 0.6rem;
-    text-align: center;
+#tept {
+  margin-bottom: 3.5rem;
+  letter-spacing: 0.6rem;
+  text-align: center;
 }
 
-h2{
-    font-size: 25px;
-
+h2 {
+  font-size: 25px;
 }
 
-#text{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
+#text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-#p1{
-    flex-basis: 48%;
-    padding-right: 1rem;
+#p1 {
+  flex-basis: 48%;
+  padding-right: 1rem;
 }
 
-#p2{
-    flex-basis: 48%;
+#p2 {
+  flex-basis: 48%;
 }
 
-#h{
-    text-align: center;
-    font-size: 30px;
-    padding-bottom: 6px;
+#h {
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 6px;
 }
 
-h4{
-    font-size: 20px;
+h4 {
+  font-size: 20px;
 }
 
-#foot{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 1rem 4rem;
+#foot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 1rem 4rem;
 }
 
-#wus{
-    height:fit-content;
-    border-radius: 1rem;
-    margin-top: 28px;
+#wus {
+  height: fit-content;
+  border-radius: 1rem;
+  margin-top: 28px;
 }

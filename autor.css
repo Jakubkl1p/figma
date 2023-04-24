@@ -1,69 +1,66 @@
-body{
-    text-align: center;
+body {
+  text-align: center;
 }
 
-.container{
-    display: grid;
-    grid-template-columns: 2;
-    grid-template-rows: 2;
-    grid-template-areas:
+.container {
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 2;
+  grid-template-areas:
     "p1 p2"
     "p1 p2";
 }
 
-#p1{
-    grid-area: p1;
+#p1 {
+  grid-area: p1;
 }
 
-#p2{
-    grid-area: p2;
+#p2 {
+  grid-area: p2;
 }
 
-p{
-    font-family: "Times new roman";
-    font-size: 1rem;
-    font-weight: bold;
-    margin: 1.1rem;
+p {
+  font-family: "Times new roman";
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 1.1rem;
 }
 
-.phito{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.phito {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-section{
-    margin: 2rem;
+section {
+  margin: 2rem;
 }
 
-.photio{
-    height: 400px;
-    width: 600px;
-    border: 0.2rem solid rgb(0, 0, 0);
-    border-radius: 0.5rem;
+.photio {
+  height: 400px;
+  width: 600px;
+  border: 0.2rem solid rgb(0, 0, 0);
+  border-radius: 0.5rem;
 }
 
-#me{
-    height: 400px;
-    width: 350px;
-    grid-area: me;
+#me {
+  height: 400px;
+  width: 350px;
+  grid-area: me;
 }
 
-.atr{
-    display: grid;
-    grid-template-columns: 2;
-    grid-template-rows: 1;
-    grid-template-areas: 
-    "me tx";
-    grid-template-areas: 
-    1fr,100px;
-    border: 1px solid #000;
-    border-radius: 0.2rem;
-    margin: 4rem;
-    align-items: center;
+.atr {
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 1;
+  grid-template-areas: "me tx";
+  grid-template-areas: 1fr, 100px;
+  border-radius: 0.2rem;
+  margin: 4rem;
+  align-items: center;
 }
 
-#mi{
-    font-size: 25px;
-    grid-area: tx;
+#mi {
+  font-size: 25px;
+  grid-area: tx;
 }
