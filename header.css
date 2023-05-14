@@ -11,6 +11,10 @@ nav{
     align-items: center;
 }
 
+nav ul{
+    list-style: none;
+}
+
 a:link{
     text-decoration: none;
 }
@@ -31,6 +35,11 @@ nav>img{
     height: 150px;
     width: 270px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 60px;
 }
